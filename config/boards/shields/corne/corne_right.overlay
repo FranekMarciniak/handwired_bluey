@@ -4,6 +4,8 @@
     col-offset = <8>;  
 };
 
+&kscan0 {
+    // Right side column pins (9 columns): D0, D1, D2, D3, D4, D5, D6, D7, E0
     col-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 8 GPIO_ACTIVE_HIGH>,
                 <&pro_micro 7 GPIO_ACTIVE_HIGH>,
