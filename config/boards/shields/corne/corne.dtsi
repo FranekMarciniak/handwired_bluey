@@ -121,17 +121,17 @@
 
                 // Row 5: thumb cluster (indices 52-55)
                 //                                    | K507 | K508 |    | K510 | K511 |
-                &key_physical_attrs 100 100  600  500  0 0 0    // 52: K507
-                &key_physical_attrs 100 100  700  500  0 0 0    // 53: K508
-                &key_physical_attrs 100 100  700  500  0 0 0    // 54: K510
-                &key_physical_attrs 100 100  800  500  0 0 0    // 55: K511
+                &key_physical_attrs 100 100  600  500  0 0 0    // 52: K507 (LALT)
+                &key_physical_attrs 100 100  700  500  0 0 0    // 53: K508 (LGUI)
+                &key_physical_attrs 100 100  800  500  0 0 0    // 54: K510 (LGUI right)
+                &key_physical_attrs 100 100  900  500  0 0 0    // 55: K511 (ENTER)
 
                 // Row 6: thumb cluster (indices 56-59)
                 //                                    | K607 | K608 |    | K610 | K611 |
-                &key_physical_attrs 100 100  600  600  0 0 0    // 56: K607
-                &key_physical_attrs 100 100  700  600  0 0 0    // 57: K608
-                &key_physical_attrs 100 100  700  600  0 0 0    // 58: K610
-                &key_physical_attrs 100 100  800  600  0 0 0    // 59: K611
+                &key_physical_attrs 100 100  600  600  0 0 0    // 56: K607 (BSPC)
+                &key_physical_attrs 100 100  700  600  0 0 0    // 57: K608 (DEL)
+                &key_physical_attrs 100 100  800  600  0 0 0    // 58: K610 (BSPC right)
+                &key_physical_attrs 100 100  900  600  0 0 0    // 59: K611 (SPACE)
             >;
         };
     };
